@@ -24,7 +24,7 @@ class LoginScreen extends StatelessWidget {
               Navigator.pushReplacement(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => HomeScreen(),
+                  builder: (context) => ExploreScreen(),
                 ),
               );
               viewModel.resetState();
