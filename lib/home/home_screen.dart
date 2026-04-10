@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:ghana_tourism_app/home/tourst_site.dart';
+import 'site_detail_screen.dart';
 
 class ExploreScreen extends StatefulWidget {
   const ExploreScreen({super.key});
@@ -499,17 +500,10 @@ class _ExploreScreenState extends State<ExploreScreen> {
   Widget _buildSiteCard(TouristSite site) {
     final isNature = site.category == 'nature';
     return GestureDetector(
-      onTap: () {
-        // TODO: Navigate to site detail screen
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(
-            content: Text(site.name),
-            behavior: SnackBarBehavior.floating,
-            backgroundColor: _red,
-            duration: const Duration(seconds: 1),
-          ),
-        );
-      },
+      onTap: () => Navigator.push(
+        context,
+        MaterialPageRoute(builder: (_) => SiteDetailScreen(site: site)),
+      ),
       child: Container(
         decoration: BoxDecoration(
           color: Colors.white,
