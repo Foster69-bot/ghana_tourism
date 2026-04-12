@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:ghana_tourism_app/auth/repositories/auth_repository.dart';
-import 'package:ghana_tourism_app/home/home_screen.dart';
+import 'package:ghana_tourism_app/home/views/home_screen.dart';
 import 'package:provider/provider.dart';
 import '../viewmodels/login_viewmodel.dart';
 import 'signup_screen.dart';

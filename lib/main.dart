@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:ghana_tourism_app/home/home_screen.dart';
+import 'package:ghana_tourism_app/home/views/home_screen.dart';
 import 'auth/views/login_screen.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 

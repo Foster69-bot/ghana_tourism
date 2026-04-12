@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:ghana_tourism_app/home/image_viewer_screen.dart';
-import 'package:ghana_tourism_app/home/tourst_site.dart';
+import 'package:ghana_tourism_app/home/views/image_viewer_screen.dart';
+import 'package:ghana_tourism_app/home/models/tourst_site.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 
