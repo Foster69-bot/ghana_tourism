@@ -145,9 +145,12 @@ final List<TouristSite> ghanaTopSites = [
     region: 'Greater Accra',
     category: 'nature',
     imageUrl:
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Labadi_Beach.jpg/640px-Labadi_Beach.jpg',
+    'https://i.pinimg.com/736x/d5/2b/39/d52b3913abcce3b48c9f728fbe4c3290.jpg',
     galleryImages: [
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Labadi_Beach.jpg/640px-Labadi_Beach.jpg',
+      'https://i.pinimg.com/1200x/d2/93/af/d293afab182f82eb63a941365bae5525.jpg',
+      'https://i.pinimg.com/1200x/f7/1e/e1/f71ee1eee963ea8a8595fcd0a6fc9eb4.jpg',
+      'https://i.pinimg.com/236x/45/d9/23/45d923b3d5f839399e31a3a3783b9549.jpg',
+      'https://i.pinimg.com/236x/45/d9/23/45d923b3d5f839399e31a3a3783b9549.jpg',
     ],
     description:
     'Labadi Beach, officially known as La Pleasure Beach, is one of the most popular public beaches in Accra. Stretching along the Atlantic coast, it is famed for its vibrant atmosphere, live music, horse rides, and fresh seafood. Locals and tourists flock here especially on weekends to enjoy the warm ocean breeze, lively drumming sessions, and colourful beach culture that truly embodies the spirit of Accra.',
@@ -174,86 +177,20 @@ final List<TouristSite> ghanaTopSites = [
     ],
     youtubeVideoId: 'SSEyvuG9FrU',
   ),
-  TouristSite(
-    id: '3',
-    name: 'Cape Coast Castle',
-    region: 'Central',
-    category: 'artificial',
-    imageUrl:
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Cape_Coast_Castle.jpg/640px-Cape_Coast_Castle.jpg',
-    galleryImages: [
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Cape_Coast_Castle.jpg/640px-Cape_Coast_Castle.jpg',
-    ],
-    description:
-    'Cape Coast Castle is a UNESCO World Heritage Site and one of about forty "slave castles" built on the Gold Coast of West Africa. Originally built by the Swedes in 1653 and later controlled by the British, it served as a holding site for enslaved Africans before they were shipped across the Atlantic. Today it is a powerful museum and memorial, offering guided tours through the infamous "Door of No Return" and dungeons that once held thousands of captives.',
-    latitude: 5.1053,
-    longitude: -1.2432,
-    address: 'Victoria Rd, Cape Coast, Central Region',
-    openingTime: '09:00 AM',
-    closingTime: '05:00 PM',
-    entryFee: 'GHS 80 / ~\$5.5 USD',
-    rating: 4.8,
-    distanceKm: 145,
-    bestTimeToVisit: 'Year-round (avoid heavy rains: Jun–Sep)',
-    pros: [
-      'UNESCO World Heritage Site',
-      'Deeply moving & educational',
-      'Excellent guided tours',
-      'Stunning ocean views from ramparts',
-      'Well-preserved architecture',
-    ],
-    cons: [
-      'Emotionally intense experience',
-      '~3 hour drive from Accra',
-      'Can be hot inside the dungeons',
-      'Tours fill up quickly',
-    ],
-    youtubeVideoId: 'BhraZLNPSNM',
-  ),
-  TouristSite(
-    id: '4',
-    name: 'Kakum National Park',
-    region: 'Central',
-    category: 'nature',
-    imageUrl:
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Kakum_NP.jpg/640px-Kakum_NP.jpg',
-    galleryImages: [
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Kakum_NP.jpg/640px-Kakum_NP.jpg',
-    ],
-    description:
-    'Kakum National Park is a 375 sq km protected area of tropical rainforest in Ghana\'s Central Region. Its crown jewel is the famous canopy walkway — a series of seven bridges suspended 30 metres above the forest floor, offering a breathtaking bird\'s-eye view of the rainforest canopy. The park is home to forest elephants, bongos, over 400 bird species, and numerous primates, making it a haven for wildlife lovers and birders.',
-    latitude: 5.3500,
-    longitude: -1.3833,
-    address: 'Kakum National Park, Cape Coast, Central Region',
-    openingTime: '07:00 AM',
-    closingTime: '05:00 PM',
-    entryFee: 'GHS 100 / ~\$7 USD (incl. canopy walk)',
-    rating: 4.7,
-    distanceKm: 150,
-    bestTimeToVisit: 'November – March (dry season)',
-    pros: [
-      'Unique suspended canopy walkway',
-      'Over 400 bird species',
-      'Diverse wildlife including elephants',
-      'Knowledgeable guides available',
-      'Educational & adventurous',
-    ],
-    cons: [
-      'Canopy walk not for the faint-hearted',
-      'Best wildlife sightings are early morning',
-      'Roads can be rough in rainy season',
-    ],
-    youtubeVideoId: 'Y5HbJq-_xh4',
-  ),
+
   TouristSite(
     id: '5',
     name: 'Boti Falls',
     region: 'Eastern',
     category: 'nature',
     imageUrl:
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Boti_Falls.jpg/640px-Boti_Falls.jpg',
+    'https://i.pinimg.com/1200x/bf/1f/2d/bf1f2d0b2ccb158f0b1b67b856157aca.jpg',
     galleryImages: [
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Boti_Falls.jpg/640px-Boti_Falls.jpg',
+      'https://i.pinimg.com/1200x/bf/1f/2d/bf1f2d0b2ccb158f0b1b67b856157aca.jpg',
+      'https://i.pinimg.com/1200x/cb/4c/cc/cb4ccc28b633922f40f933294f0a0bb4.jpg',
+      'https://i.pinimg.com/1200x/cb/4c/cc/cb4ccc28b633922f40f933294f0a0bb4.jpg',
+      'https://i.pinimg.com/1200x/c5/3f/28/c53f284c9c02898b56456caef0a927b2.jpg'
+
     ],
     description:
     'Boti Falls is a stunning twin waterfall located within the Boti Forest Reserve in the Eastern Region of Ghana. The falls flow from two separate streams — a "male" and "female" waterfall — that merge during the rainy season to form a spectacular single cascade. According to local legend, the two falls represent a couple forever united. Surrounded by lush tropical forest and unique umbrella rocks, it is one of Ghana\'s most scenic natural wonders.',
@@ -280,50 +217,54 @@ final List<TouristSite> ghanaTopSites = [
     ],
     youtubeVideoId: null,
   ),
-  TouristSite(
-    id: '6',
-    name: 'Elmina Castle',
-    region: 'Central',
-    category: 'artificial',
-    imageUrl:
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Elmina_Castle.jpg/640px-Elmina_Castle.jpg',
-    galleryImages: [
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Elmina_Castle.jpg/640px-Elmina_Castle.jpg',
-    ],
-    description:
-    'Elmina Castle, also known as St. George\'s Castle, is the oldest European building in sub-Saharan Africa, constructed by the Portuguese in 1482. Designated a UNESCO World Heritage Site, it served as a major hub of the Atlantic slave trade for over three centuries. The castle offers sobering but essential guided tours through its dungeons, the governor\'s quarters, and the harrowing "Door of No Return."',
-    latitude: 5.0843,
-    longitude: -1.3481,
-    address: 'Elmina, Central Region, Ghana',
-    openingTime: '09:00 AM',
-    closingTime: '05:00 PM',
-    entryFee: 'GHS 80 / ~\$5.5 USD',
-    rating: 4.7,
-    distanceKm: 155,
-    bestTimeToVisit: 'November – March',
-    pros: [
-      'Oldest European building in sub-Saharan Africa',
-      'UNESCO World Heritage Site',
-      'Powerful historical experience',
-      'Scenic coastal location',
-      'Excellent guided tours',
-    ],
-    cons: [
-      'Heavy emotional weight of the history',
-      'Long drive from Accra',
-      'Some areas are very cramped',
-    ],
-    youtubeVideoId: 'J8hYQFk8uws',
-  ),
+  // TouristSite(
+  //   id: '6',
+  //   name: 'Elmina Castle',
+  //   region: 'Central',
+  //   category: 'artificial',
+  //   imageUrl:
+  //   'https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Elmina_Castle.jpg/640px-Elmina_Castle.jpg',
+  //   galleryImages: [
+  //     'https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Elmina_Castle.jpg/640px-Elmina_Castle.jpg',
+  //   ],
+  //   description:
+  //   'Elmina Castle, also known as St. George\'s Castle, is the oldest European building in sub-Saharan Africa, constructed by the Portuguese in 1482. Designated a UNESCO World Heritage Site, it served as a major hub of the Atlantic slave trade for over three centuries. The castle offers sobering but essential guided tours through its dungeons, the governor\'s quarters, and the harrowing "Door of No Return."',
+  //   latitude: 5.0843,
+  //   longitude: -1.3481,
+  //   address: 'Elmina, Central Region, Ghana',
+  //   openingTime: '09:00 AM',
+  //   closingTime: '05:00 PM',
+  //   entryFee: 'GHS 80 / ~\$5.5 USD',
+  //   rating: 4.7,
+  //   distanceKm: 155,
+  //   bestTimeToVisit: 'November – March',
+  //   pros: [
+  //     'Oldest European building in sub-Saharan Africa',
+  //     'UNESCO World Heritage Site',
+  //     'Powerful historical experience',
+  //     'Scenic coastal location',
+  //     'Excellent guided tours',
+  //   ],
+  //   cons: [
+  //     'Heavy emotional weight of the history',
+  //     'Long drive from Accra',
+  //     'Some areas are very cramped',
+  //   ],
+  //   youtubeVideoId: 'J8hYQFk8uws',
+  // ),
+
   TouristSite(
     id: '7',
     name: 'Mole National Park',
     region: 'Savannah',
     category: 'nature',
     imageUrl:
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Mole_National_Park.jpg/640px-Mole_National_Park.jpg',
+    'https://i.pinimg.com/1200x/e0/4c/64/e04c640471c913bbb4aa50aa51a6812e.jpg',
     galleryImages: [
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Mole_National_Park.jpg/640px-Mole_National_Park.jpg',
+      'https://i.pinimg.com/1200x/e0/4c/64/e04c640471c913bbb4aa50aa51a6812e.jpg',
+      'https://i.pinimg.com/736x/de/97/8b/de978b377bd20e4db1151cc2af37d3da.jpg',
+      'https://i.pinimg.com/1200x/48/29/ea/4829ea61f26659c87beb2becaa666361.jpg',
+      'https://i.pinimg.com/1200x/ea/e1/e1/eae1e176638da9824b7852d8381e3c7a.jpg',
     ],
     description:
     'Mole National Park is Ghana\'s largest and most important wildlife sanctuary, covering over 4,840 sq km in the Northern Savannah. It is home to Africa\'s largest population of West African elephants alongside leopards, waterbucks, warthogs, kob antelopes, and over 300 bird species. Walking safaris and jeep safaris are available, and the Mole Motel\'s poolside elephant viewing is one of West Africa\'s most unique experiences.',
@@ -357,9 +298,13 @@ final List<TouristSite> ghanaTopSites = [
     region: 'Savannah',
     category: 'artificial',
     imageUrl:
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Larabanga_Mosque.jpg/640px-Larabanga_Mosque.jpg',
+    'https://i.pinimg.com/1200x/fb/35/8d/fb358dbd29b34de65a11184d0ee6370e.jpg',
     galleryImages: [
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Larabanga_Mosque.jpg/640px-Larabanga_Mosque.jpg',
+      'https://i.pinimg.com/1200x/72/0c/7f/720c7f7a44f075dde6d986254fbbcf6c.jpg',
+      'https://i.pinimg.com/1200x/f6/6a/c7/f66ac7560c6d6f27be18dbaa58467397.jpg',
+      'https://i.pinimg.com/1200x/df/b6/14/dfb6149e7850c524c8fcbd4b773918c7.jpg',
+      'https://i.pinimg.com/736x/4c/18/56/4c1856c1cecd48dfd89614c5921bb6be.jpg'
+
     ],
     description:
     'The Larabanga Mosque is one of the oldest mosques in West Africa and Ghana\'s oldest Islamic structure, believed to date back to the 15th century. Built in the Sudanese architectural style using mud and timber, it is often called the "Mecca of West Africa." Located in the village of Larabanga near Mole National Park, it is an active place of worship and a pilgrimage site.',
@@ -394,9 +339,12 @@ final List<TouristSite> ghanaTopSites = [
     region: 'Ashanti',
     category: 'artificial',
     imageUrl:
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Fort_Kumasi_and_Millitary_Museum_%2810%29.jpg/1920px-Fort_Kumasi_and_Millitary_Museum_%2810%29.jpg',
+    'https://i.pinimg.com/736x/8c/28/21/8c282160043a803593a3958ed9c01c08.jpg',
     galleryImages: [
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeshYqMuWClewFSYYnElNQFETsxWk5xwl-Rg&s',
+      'https://i.pinimg.com/1200x/d9/1f/a0/d91fa03ef22d5479b7fe1e04217fb71b.jpg',
+      'https://i.pinimg.com/1200x/8c/b7/b2/8cb7b2f45110b2178aca09352ffd617a.jpg',
+      'https://i.pinimg.com/1200x/22/a6/e0/22a6e04e0af1ecbdd6efbf46bc5d3fc8.jpg',
+      'https://i.pinimg.com/736x/c3/39/e7/c339e79a71ef3b1239babf7f35228c90.jpg'
     ],
     description:
     'A center for arts and culture where visitors can see traditional crafts such as kente weaving, wood carving, and pottery.',
@@ -428,9 +376,12 @@ final List<TouristSite> ghanaTopSites = [
       name: 'Cape Coast Castle',
       region: 'Central',
       category: 'historical',
-      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/5/57/Cape_Coast_Castle%2C_Ghana.jpg',
+      imageUrl: 'https://i.pinimg.com/736x/d5/8f/83/d58f83e76d8989f8d7f1a9b52c6aa1bd.jpg',
       galleryImages: [
-        'https://upload.wikimedia.org/wikipedia/commons/1/12/Cape_Coast_Castle_Courtyard.jpg',
+        'https://i.pinimg.com/236x/01/a3/e7/01a3e776a80e57c57d4162a5e5b4aa2e.jpg',
+        'https://i.pinimg.com/1200x/a5/68/98/a568989e029bf669397bab884d017e88.jpg',
+        'https://i.pinimg.com/1200x/62/dd/64/62dd64b0012c0ccad72f18011a8737e1.jpg',
+        'https://i.pinimg.com/1200x/b2/85/f3/b285f31ade7322280e622510ed7a98df.jpg'
       ],
       description:
       'Cape Coast Castle is one of the most important historical monuments in Ghana. It was used during the trans-Atlantic slave trade and now serves as a museum and UNESCO World Heritage Site.',
@@ -460,9 +411,12 @@ final List<TouristSite> ghanaTopSites = [
       name: 'Elmina Castle',
       region: 'Central',
       category: 'historical',
-      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/3/3f/Elmina_Castle.jpg',
+      imageUrl: 'https://i.pinimg.com/1200x/42/e8/eb/42e8eb6f6475acd017b507a5c793c2da.jpg',
       galleryImages: [
-        'https://upload.wikimedia.org/wikipedia/commons/9/9a/Elmina_Castle_view.jpg',
+        'https://i.pinimg.com/1200x/9f/af/94/9faf9480d353ef59da122057923de97f.jpg',
+        'https://i.pinimg.com/1200x/58/37/08/583708b0c7290e8dd6a352067a6a456f.jpg',
+        'https://i.pinimg.com/1200x/eb/a2/3f/eba23fc39bdf403c44a06aee0349962d.jpg',
+        'https://i.pinimg.com/736x/38/2f/ad/382fad1d1cc1c1df9fdf1bd28c6a9c56.jpg'
       ],
       description:
       'Elmina Castle is the oldest European building in sub-Saharan Africa. Built by the Portuguese in 1482, it played a major role in the trans-Atlantic slave trade.',
@@ -492,9 +446,13 @@ final List<TouristSite> ghanaTopSites = [
       name: 'Kakum National Park',
       region: 'Central',
       category: 'natural',
-      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/6/6c/Kakum_Canopy_Walkway.jpg',
+      imageUrl: 'https://i.pinimg.com/736x/96/e2/6b/96e26b9b67849fef116f500850715f63.jpg',
       galleryImages: [
-        'https://upload.wikimedia.org/wikipedia/commons/2/2b/Kakum_National_Park_Ghana.jpg',
+        'https://i.pinimg.com/736x/be/19/cd/be19cd7ea6fb6d104e4753ab77739b48.jpg',
+        'https://i.pinimg.com/1200x/1c/5d/7c/1c5d7c70489d3927b5dd6faf2c946cd7.jpg',
+        'https://i.pinimg.com/736x/16/8e/b8/168eb86fec80c2e4366e40e342d7e16e.jpg',
+        'https://i.pinimg.com/1200x/6d/93/24/6d9324f053adae203384a124034c2957.jpg',
+
       ],
       description:
       'Kakum National Park is famous for its canopy walkway suspended high above the rainforest. It protects diverse wildlife, birds, and plant species.',
@@ -524,9 +482,13 @@ final List<TouristSite> ghanaTopSites = [
       name: 'Fort St. Jago',
       region: 'Central',
       category: 'historical',
-      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/5/5e/Fort_St_Jago.jpg',
+      imageUrl: 'https://i.pinimg.com/736x/2a/51/52/2a5152915a67b35e4bc962c500732ec6.jpg',
       galleryImages: [
-        'https://upload.wikimedia.org/wikipedia/commons/8/89/Fort_Sao_Jago_da_Mina.jpg',
+        'https://i.pinimg.com/736x/34/d6/a7/34d6a772bab715ff3c5c59ea06ecf321.jpg',
+        'https://i.pinimg.com/736x/34/d6/a7/34d6a772bab715ff3c5c59ea06ecf321.jpg',
+        'https://i.pinimg.com/1200x/5c/da/c6/5cdac6f89e786b6c5e29045211bfd9a6.jpg',
+        'https://i.pinimg.com/1200x/e9/56/f8/e956f89692b3298d3c3eceb4e7883598.jpg',
+        '',
       ],
       description:
       'Fort St. Jago was built by the Portuguese and later controlled by the Dutch. It sits on a hill overlooking Elmina and offers panoramic views of the town.',
@@ -556,9 +518,12 @@ final List<TouristSite> ghanaTopSites = [
       name: 'Hans Cottage Botel',
       region: 'Central',
       category: 'natural',
-      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/3/33/Hans_Cottage_Botel.jpg',
+      imageUrl: 'https://i.pinimg.com/1200x/68/9e/19/689e19aebf4006f48b647f50c5fb8ef0.jpg',
       galleryImages: [
-        'https://upload.wikimedia.org/wikipedia/commons/8/8e/Hans_Cottage_Botel_lake.jpg',
+        'https://i.pinimg.com/1200x/78/e4/d3/78e4d32c327a5b34d7be0311a0309e1e.jpg',
+        'https://i.pinimg.com/1200x/b2/fe/45/b2fe45c5fd4b3de1b630d1652c6515aa.jpg',
+        'https://i.pinimg.com/1200x/03/04/a9/0304a93ffb755e6ed5cafe602671ee0a.jpg',
+        'https://i.pinimg.com/1200x/03/04/a9/0304a93ffb755e6ed5cafe602671ee0a.jpg'
       ],
       description:
       'Hans Cottage Botel is a popular tourist resort known for its crocodile pond where visitors can safely observe and sometimes touch crocodiles.',
@@ -588,9 +553,13 @@ final List<TouristSite> ghanaTopSites = [
       name: 'Assin Manso Slave River',
       region: 'Central',
       category: 'historical',
-      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/4/48/Assin_Manso_Slave_River.jpg',
+      imageUrl: 'https://i.pinimg.com/1200x/25/28/d9/2528d98b6ced82bfe5e7424de5bbbfcc.jpg',
       galleryImages: [
-        'https://upload.wikimedia.org/wikipedia/commons/7/7c/Assin_Manso_memorial.jpg',
+        'https://i.pinimg.com/736x/ce/32/5b/ce325bd2ba1536baa6261faa1f7a1bcc.jpg',
+        'https://i.pinimg.com/1200x/7c/0a/9c/7c0a9caa89bfb4ec2c5b667869df7d53.jpg',
+        'https://i.pinimg.com/1200x/ca/eb/ee/caebeed1f0566f693bc984f7851ff0d2.jpg',
+        'https://i.pinimg.com/736x/d3/5b/37/d35b37f5ee2f6462550a83dd4e635ade.jpg',
+
       ],
       description:
       'Assin Manso Slave River was the last bathing place for enslaved Africans before they were taken to the coastal slave castles.',
@@ -620,9 +589,12 @@ final List<TouristSite> ghanaTopSites = [
       name: 'Elmina Fishing Harbour',
       region: 'Central',
       category: 'cultural',
-      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/4/4c/Elmina_Fishing_Harbour.jpg',
+      imageUrl: 'https://i.pinimg.com/1200x/38/c0/12/38c012e9706a4d19e39d74d08220a7ec.jpg',
       galleryImages: [
-        'https://upload.wikimedia.org/wikipedia/commons/a/a7/Elmina_fishing_boats.jpg',
+        'https://i.pinimg.com/1200x/32/bf/65/32bf652265cdeacdf8aeb5c42875c404.jpg',
+        'https://i.pinimg.com/1200x/6d/9e/70/6d9e70cf03310e7cd2021e8a331e3aaf.jpg',
+        'https://i.pinimg.com/1200x/80/3d/0f/803d0fb406d50db281dc972d7e1b2903.jpg',
+        'https://i.pinimg.com/1200x/c2/19/46/c219467c8c95fd236412899b42cc0e9c.jpg'
       ],
       description:
       'Elmina Fishing Harbour is one of the busiest fishing communities in Ghana where visitors can observe traditional fishing activities.',
@@ -652,9 +624,12 @@ final List<TouristSite> ghanaTopSites = [
       name: 'Brenu Beach',
       region: 'Central',
       category: 'natural',
-      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/e/e1/Brenu_Beach_Ghana.jpg',
+      imageUrl: 'https://i.pinimg.com/736x/d6/dc/47/d6dc474fdc324a10832e50cc6165d4f8.jpg',
       galleryImages: [
-        'https://upload.wikimedia.org/wikipedia/commons/b/b3/Brenu_Beach.jpg',
+        'https://i.pinimg.com/736x/ab/96/d9/ab96d99f50ba1bfdb73f5011005adde5.jpg',
+        'https://i.pinimg.com/736x/f1/d6/cd/f1d6cdd8f78e00e790494c50c0dcfa45.jpg',
+        'https://i.pinimg.com/736x/1f/4e/91/1f4e912148707435032a63f352ad4fc6.jpg',
+        'https://i.pinimg.com/1200x/e6/33/08/e63308e90c76fd1d2fbd292b2449354f.jpg',
       ],
       description:
       'Brenu Beach is a peaceful beach destination near Elmina known for its long sandy shoreline and relaxing environment.',
@@ -684,9 +659,12 @@ final List<TouristSite> ghanaTopSites = [
       name: 'Posuban Shrine',
       region: 'Central',
       category: 'cultural',
-      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/7/77/Posuban_Shrine.jpg',
+      imageUrl: 'https://i.pinimg.com/736x/74/f3/03/74f303b8c8cfa896158947396f0b609e.jpg',
       galleryImages: [
-        'https://upload.wikimedia.org/wikipedia/commons/6/6e/Posuban_shrine_elmina.jpg',
+        'https://i.pinimg.com/1200x/32/99/99/329999f41a2c2540d3cef838bdb93a96.jpg',
+        'https://i.pinimg.com/1200x/77/f6/b3/77f6b33aaaf22b309b8fe584101c5a09.jpg',
+        'https://i.pinimg.com/1200x/60/b7/15/60b715640c9ca3b6bbfb3a4abae7b03b.jpg',
+        'https://i.pinimg.com/736x/75/91/88/7591880c598a22c436f20e642f2c5ca2.jpg',
       ],
       description:
       'Posuban shrines are colorful monuments built by Asafo warrior groups in coastal towns of the Central Region.',
@@ -716,9 +694,12 @@ final List<TouristSite> ghanaTopSites = [
       name: 'Komenda Fort',
       region: 'Central',
       category: 'historical',
-      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/9/90/Fort_Komenda.jpg',
+      imageUrl: 'https://i.pinimg.com/736x/94/8f/c3/948fc3e287ce8223e8f46529bdb9daae.jpg',
       galleryImages: [
-        'https://upload.wikimedia.org/wikipedia/commons/5/54/Fort_Komenda_Ghana.jpg',
+        'https://i.pinimg.com/1200x/34/a3/74/34a37443f8caa3cad5d26e47208827cf.jpg',
+        'https://i.pinimg.com/1200x/87/88/e1/8788e10ccf07dd77056a902763b77c71.jpg',
+        'https://i.pinimg.com/1200x/87/88/e1/8788e10ccf07dd77056a902763b77c71.jpg',
+        'https://i.pinimg.com/236x/37/fe/5b/37fe5b37e7838e306bc66939c245e067.jpg'
       ],
       description:
       'Komenda Fort is a historic European fort built in the 17th century during colonial trade along the Gold Coast.',
@@ -744,14 +725,18 @@ final List<TouristSite> ghanaTopSites = [
   ),
 
 
+  // BONO REGION
   TouristSite(
       id: '21',
       name: 'Bui National Park',
       region: 'Bono',
       category: 'natural',
-      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/7/7f/Bui_National_Park_Ghana.jpg',
+      imageUrl: 'https://i.pinimg.com/736x/b2/92/58/b2925853ecf25e4fc08af6095cabf2f8.jpg',
       galleryImages: [
-        'https://upload.wikimedia.org/wikipedia/commons/3/34/Bui_National_Park_elephants.jpg',
+        'https://i.pinimg.com/736x/49/4b/53/494b530400db132b17532f1434ed0195.jpg',
+        'https://i.pinimg.com/736x/ac/ed/a2/aceda2de66c82efcfd39a130c458453e.jpg',
+        'https://i.pinimg.com/736x/1b/3c/44/1b3c449a1c1c400998e528bfa9f22b95.jpg',
+        'https://i.pinimg.com/736x/2f/ac/78/2fac78c9594a64481c6e670cfc5cae8b.jpg',
       ],
       description:
       'Bui National Park is one of Ghana’s largest wildlife reserves and is known for its population of hippos along the Black Volta River.',
@@ -781,9 +766,12 @@ final List<TouristSite> ghanaTopSites = [
       name: 'Bui Dam',
       region: 'Bono',
       category: 'artificial',
-      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/8/84/Bui_Dam_Ghana.jpg',
+      imageUrl: 'https://i.pinimg.com/736x/01/fb/19/01fb197b1408e02b85494b236cfb8672.jpg',
       galleryImages: [
-        'https://upload.wikimedia.org/wikipedia/commons/3/31/Bui_Dam_reservoir.jpg',
+        'https://i.pinimg.com/736x/88/d5/01/88d501ce0d44f5f9b6600887a83fb4e8.jpg',
+        'https://i.pinimg.com/736x/04/ad/6b/04ad6b31c13cdfc7d30d6d6f2450d29e.jpg',
+        'https://i.pinimg.com/736x/e7/00/53/e70053058bc0beee8c3c55ed92584f7d.jpg',
+        'https://i.pinimg.com/736x/b7/60/9e/b7609e932a10dda4f9256d59b55e2fbc.jpg',
       ],
       description:
       'Bui Dam is one of the largest hydroelectric dams in Ghana built on the Black Volta River to generate electricity.',
@@ -813,9 +801,14 @@ final List<TouristSite> ghanaTopSites = [
       name: 'Kintampo Waterfalls',
       region: 'Bono',
       category: 'natural',
-      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/6/64/Kintampo_Waterfalls_Ghana.jpg',
+      imageUrl: 'https://i.pinimg.com/1200x/00/6c/5e/006c5e5812dd885bf034d4601e344a0d.jpg',
       galleryImages: [
-        'https://upload.wikimedia.org/wikipedia/commons/9/9a/Kintampo_falls_view.jpg',
+        'https://i.pinimg.com/1200x/00/6c/5e/006c5e5812dd885bf034d4601e344a0d.jpg',
+        'https://i.pinimg.com/1200x/7a/6b/65/7a6b65ffb6e18b9166de6f48a0fdf0bd.jpg',
+        'https://i.pinimg.com/1200x/c2/00/8c/c2008c1c4d4b2499a3f2ceb7b182ba52.jpg',
+        'https://i.pinimg.com/1200x/34/d7/85/34d78514a575663a3a60191d6b1967e2.jpg',
+
+
       ],
       description:
       'Kintampo Waterfalls is one of the most beautiful waterfalls in Ghana, surrounded by forest vegetation and popular for relaxation and tourism.',
@@ -845,9 +838,12 @@ final List<TouristSite> ghanaTopSites = [
       name: 'Fiema Monkey Sanctuary',
       region: 'Bono',
       category: 'natural',
-      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/0/04/Boabeng_Fiema_Monkey_Sanctuary.jpg',
+      imageUrl: 'https://i.pinimg.com/736x/9f/47/bb/9f47bbd4068bd87edbbf56179eeff6fb.jpg',
       galleryImages: [
-        'https://upload.wikimedia.org/wikipedia/commons/2/2f/Boabeng_fiema_monkeys.jpg',
+        'https://i.pinimg.com/1200x/2a/e6/f7/2ae6f7460b6450f5e3a5ef0f5c007001.jpg',
+        'https://i.pinimg.com/736x/e4/21/97/e42197bb9970ee5be3539222f0ab8d18.jpg',
+        'https://i.pinimg.com/736x/07/13/7f/07137fd33959a2a1aba4b6f11042aa69.jpg',
+        'https://i.pinimg.com/736x/2e/4d/87/2e4d8799334ab20cda0a994a9df0b2c8.jpg',
       ],
       description:
       'Boabeng-Fiema Monkey Sanctuary protects sacred monkeys that are revered by the local community and live freely within the forest.',
@@ -909,9 +905,13 @@ final List<TouristSite> ghanaTopSites = [
       name: 'Bono Manso Slave Market',
       region: 'Bono',
       category: 'historical',
-      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/3/3e/Bono_Manso.jpg',
+      imageUrl: 'https://i.pinimg.com/1200x/b3/16/37/b31637d5e2c76ad262b0076e8a1858e3.jpg',
       galleryImages: [
-        'https://upload.wikimedia.org/wikipedia/commons/8/8c/Bono_Manso_site.jpg',
+        'https://i.pinimg.com/1200x/3a/74/87/3a7487ca0e3a88ec391baf95ebe95f08.jpg',
+        'https://i.pinimg.com/1200x/9b/6c/75/9b6c7587784500aa8e7d604cdb603b42.jpg',
+        'https://i.pinimg.com/1200x/34/81/b3/3481b3d5268a6f6082beecfc098f8dc1.jpg',
+        'https://i.pinimg.com/736x/58/10/aa/5810aace9e2f7a2a457580465779370a.jpg',
+
       ],
       description:
       'Bono Manso is an ancient town believed to have been a major trading center and slave market during the trans-Saharan trade.',
@@ -941,9 +941,12 @@ final List<TouristSite> ghanaTopSites = [
       name: 'Kintampo Slave Defence Wall',
       region: 'Bono',
       category: 'historical',
-      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/4/4d/Kintampo_wall.jpg',
+      imageUrl: 'https://i.pinimg.com/236x/20/e9/97/20e997e209c4b5a29be1aa52bde62aba.jpg',
       galleryImages: [
-        'https://upload.wikimedia.org/wikipedia/commons/1/12/Kintampo_defense_wall.jpg',
+        'https://i.pinimg.com/736x/14/4e/c2/144ec2467e77371a9ba24ef70f7aa74f.jpg',
+        'https://i.pinimg.com/736x/80/11/8a/80118a9c749a621bb64541797276dd89.jpg',
+        'https://i.pinimg.com/736x/7b/fc/9f/7bfc9f6b1b1f2933f1079c914ce3453d.jpg',
+        'https://i.pinimg.com/1200x/32/2e/8c/322e8c438d9ac58b0950d085580e5a65.jpg',
       ],
       description:
       'The Kintampo Slave Defence Wall was built by local communities to protect themselves from slave raiders during the slave trade era.',
@@ -973,9 +976,11 @@ final List<TouristSite> ghanaTopSites = [
       name: 'Sunyani Coronation Park',
       region: 'Bono',
       category: 'recreational',
-      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/6/63/Sunyani_coronation_park.jpg',
+      imageUrl: 'https://i.pinimg.com/736x/fa/fa/af/fafaaf4781e90bb0bcdf88b1411ef7da.jpg',
       galleryImages: [
-        'https://upload.wikimedia.org/wikipedia/commons/1/1b/Sunyani_park.jpg',
+        'https://i.pinimg.com/236x/3c/3a/e7/3c3ae7b09b984bd01ae004806b51fd02.jpg',
+        'https://i.pinimg.com/1200x/e2/98/db/e298db40dfc000ff468e9bf2b89f9f02.jpg',
+        'https://i.pinimg.com/736x/95/6a/b3/956ab38f7d990ae9321b93fd2fbaeb8a.jpg',
       ],
       description:
       'Coronation Park is a popular recreational park in Sunyani where cultural festivals, concerts, and public events are held.',
@@ -1065,6 +1070,7 @@ final List<TouristSite> ghanaTopSites = [
   ),
 
 
+  // AHAFO REGION
   TouristSite(
       id: '31',
       name: 'Tano Boase Sacred Grove',
@@ -1102,9 +1108,11 @@ final List<TouristSite> ghanaTopSites = [
       name: 'Mim Timber Market',
       region: 'Ahafo',
       category: 'cultural',
-      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/3/33/Mim_timber_market.jpg',
+      imageUrl: 'https://i.pinimg.com/1200x/f6/8b/ec/f68bec424ceb92798b4a2d015cb6d740.jpg',
       galleryImages: [
-        'https://upload.wikimedia.org/wikipedia/commons/4/44/Mim_wood_market.jpg',
+        'https://i.pinimg.com/1200x/72/87/56/728756d6f6c7048ae876ab9692ec5211.jpg',
+        'https://i.pinimg.com/1200x/27/1c/d6/271cd6df2573648f98c000c104ed75ea.jpg',
+        'https://i.pinimg.com/1200x/0d/94/6f/0d946f47f414a9a4753c34dedc861a9b.jpg',
       ],
       description:
       'Mim Timber Market is one of the largest timber trading centers in Ghana where visitors can observe wood processing and timber trading.',
@@ -1134,9 +1142,10 @@ final List<TouristSite> ghanaTopSites = [
       name: 'Kenyasi Mining Site',
       region: 'Ahafo',
       category: 'industrial',
-      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/7/72/Ahafo_mine.jpg',
+      imageUrl: 'https://i.pinimg.com/736x/6b/2f/2f/6b2f2f6730f68586d419ebce3639c0a6.jpg',
       galleryImages: [
-        'https://upload.wikimedia.org/wikipedia/commons/2/2c/Ahafo_gold_mine.jpg',
+        'https://i.pinimg.com/736x/b9/8d/cc/b98dccaa74092b0d435eb47103c4469d.jpg',
+        'https://i.pinimg.com/1200x/0b/5d/35/0b5d35c40464cb0c9bf9db55be87e729.jpg'
       ],
       description:
       'The Kenyasi mining site hosts one of Ghana’s largest gold mining operations and plays a key role in the local economy.',
@@ -4266,17 +4275,25 @@ final List<TouristSite> ghanaTopSites = [
       youtubeVideoId: ''
   ),
 
+
+
+  // WESTERN REGION
+
   TouristSite(
       id: '131',
       name: 'Nzulezo Stilt Village',
       region: 'Western',
       category: 'cultural',
-      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/2/2f/Nzulezo_Stilt_Village.jpg',
+      imageUrl: 'https://i.pinimg.com/736x/9b/0c/57/9b0c57d2df9e3d6e6b4c7c4dcd7c0e1f.jpg',
       galleryImages: [
-        'https://upload.wikimedia.org/wikipedia/commons/2/2f/Nzulezo_Stilt_Village.jpg',
+        'https://i.pinimg.com/736x/0b/b1/3e/0bb13ef4a0fa6c1b6fbb1c3c1e5edc72.jpg',
+        'https://i.pinimg.com/736x/6a/9f/1c/6a9f1c6f69c7a2c34b73a1c6f2e4f0c3.jpg',
+        'https://i.pinimg.com/736x/c4/53/7a/c4537a24d9e8c8d32a0f45f1d7c6f1a1.jpg',
+        'https://i.pinimg.com/736x/7f/13/71/7f13710d7e7e43a33e4ef6a9e9c4b7b1.jpg',
+        'https://i.pinimg.com/736x/54/9b/6e/549b6e7e6e9b2f8d1c6c6f1c0e9f0a7c.jpg'
       ],
       description:
-      'Nzulezo is a unique village built entirely on stilts over Lake Tadane, where residents live, work, and travel by canoe.',
+      'Nzulezo is a unique village built on stilts over Lake Tadane where residents travel mainly by canoe.',
       latitude: 4.9000,
       longitude: -2.4200,
       address: 'Jomoro District, Western Region, Ghana',
@@ -4287,7 +4304,7 @@ final List<TouristSite> ghanaTopSites = [
       distanceKm: 550,
       bestTimeToVisit: 'November – March',
       pros: [
-        'Unique stilt village experience',
+        'Unique stilt village',
         'Boat ride adventure',
         'Rich cultural heritage'
       ],
@@ -4303,12 +4320,16 @@ final List<TouristSite> ghanaTopSites = [
       name: 'Busua Beach',
       region: 'Western',
       category: 'natural',
-      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/5/5c/Busua_Beach.jpg',
+      imageUrl: 'https://i.pinimg.com/736x/13/48/ef/1348efcbfaad1a52e0b0a19bcb9c0c0c.jpg',
       galleryImages: [
-        'https://upload.wikimedia.org/wikipedia/commons/5/5c/Busua_Beach.jpg',
+        'https://i.pinimg.com/736x/5c/b9/1f/5cb91f8f2fa1f1e0cba3e9f4b0c7b3a0.jpg',
+        'https://i.pinimg.com/736x/3b/22/9d/3b229d41df52b0a47e8c8a7db9f6f9c3.jpg',
+        'https://i.pinimg.com/736x/0f/44/c4/0f44c4d2a8f2d76e8c7c2a0a3f2f9b5a.jpg',
+        'https://i.pinimg.com/736x/2a/55/ef/2a55efdf9b3d0c8b3e1f4d5b4c1a1e9f.jpg',
+        'https://i.pinimg.com/736x/9c/0b/77/9c0b77a7d4a7e2b5c3c7e2e9b5b8e1a4.jpg'
       ],
       description:
-      'Busua Beach is one of Ghana’s most popular beaches, known for surfing, relaxation, and tourism resorts.',
+      'Busua Beach is a popular surfing and relaxation destination known for its golden sand and beach resorts.',
       latitude: 4.8050,
       longitude: -1.9350,
       address: 'Busua, Western Region, Ghana',
@@ -4324,7 +4345,7 @@ final List<TouristSite> ghanaTopSites = [
         'Beach resorts'
       ],
       cons: [
-        'Can be crowded on weekends',
+        'Crowded during holidays',
         'Strong waves sometimes'
       ],
       youtubeVideoId: ''
@@ -4332,15 +4353,19 @@ final List<TouristSite> ghanaTopSites = [
 
   TouristSite(
       id: '133',
-      name: 'Fort Metal Cross (Dixcove)',
+      name: 'Fort Metal Cross',
       region: 'Western',
       category: 'historical',
-      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/3/3b/Fort_Metal_Cross.jpg',
+      imageUrl: 'https://i.pinimg.com/736x/91/4f/4e/914f4e8a56a7b4a5b4d1d7e7c0f0c2a3.jpg',
       galleryImages: [
-        'https://upload.wikimedia.org/wikipedia/commons/3/3b/Fort_Metal_Cross.jpg',
+        'https://i.pinimg.com/736x/5e/11/5b/5e115bff9fbe3f7c7c1f3a9e0e6c1f3a.jpg',
+        'https://i.pinimg.com/736x/74/18/c3/7418c3b3a9d0f3c2a7e9f2b3d5e6c7a1.jpg',
+        'https://i.pinimg.com/736x/3e/0a/ab/3e0aab7a7e9f1b0d3c7c2b6e8d1a2b7c.jpg',
+        'https://i.pinimg.com/736x/1d/7c/66/1d7c6647a6e9e3d7c2a0f3b1d4e8c9b2.jpg',
+        'https://i.pinimg.com/736x/4b/c7/7a/4bc77a2c7c7d3e8a1c7f1a9c7d4b8c3f.jpg'
       ],
       description:
-      'Fort Metal Cross is a historic European fort built during the trans-Atlantic slave trade era.',
+      'Fort Metal Cross is a historic coastal fort built by Europeans during the trans-Atlantic slave trade era.',
       latitude: 4.7770,
       longitude: -1.9370,
       address: 'Dixcove, Western Region, Ghana',
@@ -4351,13 +4376,13 @@ final List<TouristSite> ghanaTopSites = [
       distanceKm: 505,
       bestTimeToVisit: 'All year round',
       pros: [
-        'Historical slave trade site',
-        'Coastal scenery',
+        'Historic slave trade site',
+        'Beautiful ocean view',
         'Educational tours'
       ],
       cons: [
-        'Partially damaged structure',
-        'Limited maintenance'
+        'Needs renovation',
+        'Limited facilities'
       ],
       youtubeVideoId: ''
   ),
@@ -4367,15 +4392,19 @@ final List<TouristSite> ghanaTopSites = [
       name: 'Bia National Park',
       region: 'Western',
       category: 'natural',
-      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/4/4e/Bia_National_Park.jpg',
+      imageUrl: 'https://i.pinimg.com/736x/62/14/cc/6214cc5c3b5e9e8a2a4c3c1f1c2e4e3b.jpg',
       galleryImages: [
-        'https://upload.wikimedia.org/wikipedia/commons/4/4e/Bia_National_Park.jpg',
+        'https://i.pinimg.com/736x/3f/4e/ab/3f4eab7c8e5a2b9e3c7f1a4d2e8c3b7a.jpg',
+        'https://i.pinimg.com/736x/2a/55/1e/2a551ef2c7b9c2f1a8e4e3b5c9f3d7a6.jpg',
+        'https://i.pinimg.com/736x/77/9f/aa/779faa2e7b5d1a2c7e3d1f4b7c3e9a2b.jpg',
+        'https://i.pinimg.com/736x/55/6c/7d/556c7d1a9c2f3b5e8a1f7c4d2a3e6b9c.jpg',
+        'https://i.pinimg.com/736x/0d/0c/ba/0d0cba3b7e9c2f5a1d7e8b4a3c7e2d6b.jpg'
       ],
       description:
-      'Bia National Park is a rainforest reserve home to rare wildlife, birds, and medicinal plants.',
+      'Bia National Park is a protected rainforest reserve rich in wildlife and bird species.',
       latitude: 6.4667,
       longitude: -2.6833,
-      address: 'Sefwi area, Western Region, Ghana',
+      address: 'Bia District, Western Region, Ghana',
       openingTime: '06:00 AM',
       closingTime: '06:00 PM',
       entryFee: 'GHS 25',
@@ -4383,412 +4412,142 @@ final List<TouristSite> ghanaTopSites = [
       distanceKm: 620,
       bestTimeToVisit: 'May – October',
       pros: [
-        'Rich rainforest biodiversity',
+        'Rich biodiversity',
         'Bird watching',
-        'Eco-tourism site'
+        'Eco tourism'
       ],
       cons: [
-        'Difficult access roads',
+        'Remote location',
         'Limited accommodation'
       ],
       youtubeVideoId: ''
   ),
 
-  TouristSite(
-      id: '135',
-      name: 'Ankobra River',
-      region: 'Western',
-      category: 'natural',
-      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/3/3a/Ankobra_River.jpg',
-      galleryImages: [
-        'https://upload.wikimedia.org/wikipedia/commons/3/3a/Ankobra_River.jpg',
-      ],
-      description:
-      'The Ankobra River is an important waterway used for fishing and transportation in the Western Region.',
-      latitude: 5.2000,
-      longitude: -2.2000,
-      address: 'Western Region, Ghana',
-      openingTime: 'Any time',
-      closingTime: 'Any time',
-      entryFee: 'Free',
-      rating: 4.3,
-      distanceKm: 530,
-      bestTimeToVisit: 'November – March',
-      pros: [
-        'Fishing activities',
-        'Scenic river views',
-        'Local transportation'
-      ],
-      cons: [
-        'Pollution in some areas',
-        'Flood risk in rainy season'
-      ],
-      youtubeVideoId: ''
-  ),
+  // WESTERN NORTH REGION
 
   TouristSite(
-      id: '136',
-      name: 'Axim Beach',
-      region: 'Western',
+      id: '151',
+      name: 'Bia National Park',
+      region: 'Western North',
       category: 'natural',
-      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/2/2b/Axim_Beach.jpg',
+      imageUrl: 'https://i.pinimg.com/736x/5d/70/35/5d7035f7e6a0c53a7a8bbd7b2c2c4d71.jpg',
       galleryImages: [
-        'https://upload.wikimedia.org/wikipedia/commons/2/2b/Axim_Beach.jpg',
+        'https://i.pinimg.com/736x/6a/2d/89/6a2d8967c7d8c1b21c8cfc7c9b1c46d7.jpg',
+        'https://i.pinimg.com/736x/1b/53/9c/1b539c4d5b4d68b0e4a8c5e4f2e3a6c1.jpg',
+        'https://i.pinimg.com/736x/87/3f/64/873f6403c92cdeac6c5e60d1b6f2f1b7.jpg',
+        'https://i.pinimg.com/736x/42/9d/6f/429d6f7b4c3e9a2e7b4c3a2e5c8f3b2d.jpg',
+        'https://i.pinimg.com/736x/c7/4f/2a/c74f2a9c5c3e7b4a3e9c5d6a2b4f1e8c.jpg'
       ],
       description:
-      'Axim Beach is a calm coastal beach known for its palm trees and historic fort nearby.',
-      latitude: 4.8667,
-      longitude: -2.2333,
-      address: 'Axim, Western Region, Ghana',
+      'Bia National Park is a protected rainforest reserve known for its wildlife, bird species, and dense tropical forest ecosystem.',
+      latitude: 6.4667,
+      longitude: -2.6833,
+      address: 'Bia West District, Western North Region, Ghana',
       openingTime: '06:00 AM',
       closingTime: '06:00 PM',
-      entryFee: 'Free',
-      rating: 4.6,
-      distanceKm: 520,
-      bestTimeToVisit: 'November – April',
+      entryFee: 'GHS 25',
+      rating: 4.7,
+      distanceKm: 610,
+      bestTimeToVisit: 'May – October',
       pros: [
-        'Calm beach environment',
-        'Palm tree scenery',
-        'Nearby historical sites'
+        'Rich biodiversity',
+        'Excellent bird watching',
+        'Beautiful rainforest scenery'
       ],
       cons: [
-        'Limited facilities',
-        'Can be quiet off-season'
-      ],
-      youtubeVideoId: ''
-  ),
-
-  TouristSite(
-      id: '137',
-      name: 'Fort Saint Anthony (Axim)',
-      region: 'Western',
-      category: 'historical',
-      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/3/3d/Fort_Saint_Anthony_Axim.jpg',
-      galleryImages: [
-        'https://upload.wikimedia.org/wikipedia/commons/3/3d/Fort_Saint_Anthony_Axim.jpg',
-      ],
-      description:
-      'Fort Saint Anthony is one of the oldest European forts in Ghana, built by the Portuguese in the 1500s.',
-      latitude: 4.8660,
-      longitude: -2.2320,
-      address: 'Axim, Western Region, Ghana',
-      openingTime: '08:00 AM',
-      closingTime: '05:00 PM',
-      entryFee: 'GHS 10',
-      rating: 4.5,
-      distanceKm: 522,
-      bestTimeToVisit: 'All year round',
-      pros: [
-        'Very old historical fort',
-        'Coastal views',
-        'Cultural heritage site'
-      ],
-      cons: [
-        'Needs restoration',
-        'Limited visitor facilities'
-      ],
-      youtubeVideoId: ''
-  ),
-
-  TouristSite(
-      id: '138',
-      name: 'Takoradi Harbour',
-      region: 'Western',
-      category: 'industrial',
-      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/4/4b/Takoradi_Harbour.jpg',
-      galleryImages: [
-        'https://upload.wikimedia.org/wikipedia/commons/4/4b/Takoradi_Harbour.jpg',
-      ],
-      description:
-      'Takoradi Harbour is Ghana’s first deep-water port and an important industrial and trade center.',
-      latitude: 4.9010,
-      longitude: -1.7510,
-      address: 'Takoradi, Western Region, Ghana',
-      openingTime: '06:00 AM',
-      closingTime: '06:00 PM',
-      entryFee: 'Free',
-      rating: 4.4,
-      distanceKm: 500,
-      bestTimeToVisit: 'All year round',
-      pros: [
-        'Major port city',
-        'Economic importance',
-        'Industrial tourism'
-      ],
-      cons: [
-        'Restricted areas',
-        'Busy industrial zone'
-      ],
-      youtubeVideoId: ''
-  ),
-
-  TouristSite(
-      id: '139',
-      name: 'Butre Village & Fort Batenstein',
-      region: 'Western',
-      category: 'historical',
-      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/3/3f/Fort_Batenstein.jpg',
-      galleryImages: [
-        'https://upload.wikimedia.org/wikipedia/commons/3/3f/Fort_Batenstein.jpg',
-      ],
-      description:
-      'Butre is a coastal village with Fort Batenstein, a Dutch-built fort used during colonial trade.',
-      latitude: 4.7330,
-      longitude: -1.9370,
-      address: 'Butre, Western Region, Ghana',
-      openingTime: '08:00 AM',
-      closingTime: '05:00 PM',
-      entryFee: 'GHS 5',
-      rating: 4.4,
-      distanceKm: 515,
-      bestTimeToVisit: 'All year round',
-      pros: [
-        'Historical coastal village',
-        'Scenic views',
-        'Cultural heritage'
-      ],
-      cons: [
-        'Poor road access',
+        'Remote location',
         'Limited tourist facilities'
       ],
       youtubeVideoId: ''
   ),
 
   TouristSite(
-      id: '140',
-      name: 'Esiama Mangrove Forest',
-      region: 'Western',
-      category: 'natural',
-      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/4/4a/Mangrove_forest_Ghana.jpg',
-      galleryImages: [
-        'https://upload.wikimedia.org/wikipedia/commons/4/4a/Mangrove_forest_Ghana.jpg',
-      ],
-      description:
-      'Esiama Mangrove Forest is an ecological site supporting marine life and coastal biodiversity.',
-      latitude: 5.0833,
-      longitude: -2.3500,
-      address: 'Esiama, Western Region, Ghana',
-      openingTime: '06:00 AM',
-      closingTime: '06:00 PM',
-      entryFee: 'Free',
-      rating: 4.3,
-      distanceKm: 540,
-      bestTimeToVisit: 'November – March',
-      pros: [
-        'Rich mangrove ecosystem',
-        'Bird watching',
-        'Eco-tourism experience'
-      ],
-      cons: [
-        'Swampy terrain',
-        'Limited access paths'
-      ],
-      youtubeVideoId: ''
-  ),
-
-  TouristSite(
-      id: '141',
-      name: 'Bia National Park (North Section)',
-      region: 'Western North',
-      category: 'natural',
-      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/4/4e/Bia_National_Park.jpg',
-      galleryImages: [
-        'https://upload.wikimedia.org/wikipedia/commons/4/4e/Bia_National_Park.jpg',
-      ],
-      description:
-      'Bia National Park is a rainforest reserve known for rare wildlife, birds, and rich biodiversity in Western North.',
-      latitude: 6.4667,
-      longitude: -2.6833,
-      address: 'Sefwi Bia, Western North Region, Ghana',
-      openingTime: '06:00 AM',
-      closingTime: '06:00 PM',
-      entryFee: 'GHS 25',
-      rating: 4.7,
-      distanceKm: 580,
-      bestTimeToVisit: 'May – October',
-      pros: [
-        'Rich rainforest biodiversity',
-        'Bird watching opportunities',
-        'Eco-tourism experience'
-      ],
-      cons: [
-        'Remote location',
-        'Limited infrastructure'
-      ],
-      youtubeVideoId: ''
-  ),
-
-  TouristSite(
-      id: '142',
-      name: 'Bodi Waterfalls',
-      region: 'Western North',
-      category: 'natural',
-      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/3/3f/Ghana_waterfall_forest.jpg',
-      galleryImages: [
-        'https://upload.wikimedia.org/wikipedia/commons/3/3f/Ghana_waterfall_forest.jpg',
-      ],
-      description:
-      'Bodi Waterfalls is a hidden natural waterfall surrounded by dense forest and wildlife.',
-      latitude: 6.2500,
-      longitude: -2.5000,
-      address: 'Bodi, Western North Region, Ghana',
-      openingTime: '08:00 AM',
-      closingTime: '05:00 PM',
-      entryFee: 'GHS 10',
-      rating: 4.3,
-      distanceKm: 600,
-      bestTimeToVisit: 'May – October',
-      pros: [
-        'Beautiful waterfall scenery',
-        'Peaceful environment',
-        'Great for photography'
-      ],
-      cons: [
-        'Difficult access roads',
-        'No tourist facilities'
-      ],
-      youtubeVideoId: ''
-  ),
-
-  TouristSite(
-      id: '143',
+      id: '152',
       name: 'Sefwi Wiawso Forest Reserve',
       region: 'Western North',
       category: 'natural',
-      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/5/5e/Ghana_forest_reserve.jpg',
+      imageUrl: 'https://i.pinimg.com/736x/3b/5e/b4/3b5eb48c71c0c2a0a7e2f2d3c1b7a8e2.jpg',
       galleryImages: [
-        'https://upload.wikimedia.org/wikipedia/commons/5/5e/Ghana_forest_reserve.jpg',
+        'https://i.pinimg.com/736x/7e/51/4a/7e514a2f5c2d8a7b3e9c1f4a2e6b3c1d.jpg',
+        'https://i.pinimg.com/736x/2f/41/9c/2f419c6e3b4f7a1e5c9d2b3c7e1f2d4a.jpg',
+        'https://i.pinimg.com/736x/8a/0c/41/8a0c41b2d9f5c7e3a2b1d6e4f3c9b1a2.jpg',
+        'https://i.pinimg.com/736x/1f/72/88/1f7288c4a3e7c2b5f1d6a8e2b3c4f7d1.jpg',
+        'https://i.pinimg.com/736x/b3/41/5c/b3415c2e7a3b6f1c2e9a4b7c3d5f1e6a.jpg'
       ],
       description:
-      'A protected forest reserve known for timber resources, wildlife, and eco-tourism potential.',
+      'A large forest reserve with rich vegetation and wildlife, providing opportunities for eco-tourism and nature exploration.',
       latitude: 6.2167,
       longitude: -2.4833,
       address: 'Sefwi Wiawso, Western North Region, Ghana',
       openingTime: '06:00 AM',
       closingTime: '06:00 PM',
       entryFee: 'GHS 15',
-      rating: 4.4,
+      rating: 4.5,
       distanceKm: 590,
       bestTimeToVisit: 'November – March',
       pros: [
-        'Rich forest ecosystem',
-        'Wildlife sightings',
-        'Nature walks'
-      ],
-      cons: [
-        'Limited infrastructure',
-        'Requires guide'
-      ],
-      youtubeVideoId: ''
-  ),
-
-  TouristSite(
-      id: '144',
-      name: 'Sefwi Anhwiaso Shrine Forest',
-      region: 'Western North',
-      category: 'cultural',
-      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/4/4f/Sacred_forest_Ghana.jpg',
-      galleryImages: [
-        'https://upload.wikimedia.org/wikipedia/commons/4/4f/Sacred_forest_Ghana.jpg',
-      ],
-      description:
-      'A sacred forest used for traditional rituals and cultural heritage preservation.',
-      latitude: 6.3000,
-      longitude: -2.6000,
-      address: 'Anhwiaso, Western North Region, Ghana',
-      openingTime: '08:00 AM',
-      closingTime: '05:00 PM',
-      entryFee: 'Free (donation)',
-      rating: 4.5,
-      distanceKm: 610,
-      bestTimeToVisit: 'All year round',
-      pros: [
-        'Strong cultural heritage',
-        'Spiritual significance',
-        'Traditional rituals'
-      ],
-      cons: [
-        'Restricted areas',
-        'Limited tourist access'
-      ],
-      youtubeVideoId: ''
-  ),
-
-  TouristSite(
-      id: '145',
-      name: 'Juaboso Forest Reserve',
-      region: 'Western North',
-      category: 'natural',
-      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/5/5a/Ghana_rainforest.jpg',
-      galleryImages: [
-        'https://upload.wikimedia.org/wikipedia/commons/5/5a/Ghana_rainforest.jpg',
-      ],
-      description:
-      'A dense tropical forest reserve with diverse flora and fauna in Western North.',
-      latitude: 6.3500,
-      longitude: -2.8000,
-      address: 'Juaboso, Western North Region, Ghana',
-      openingTime: '06:00 AM',
-      closingTime: '06:00 PM',
-      entryFee: 'GHS 10',
-      rating: 4.3,
-      distanceKm: 620,
-      bestTimeToVisit: 'November – March',
-      pros: [
-        'Rich biodiversity',
+        'Dense tropical forest',
         'Nature walks',
-        'Bird watching'
+        'Wildlife sightings'
       ],
       cons: [
         'Poor road access',
-        'No tourist facilities'
+        'Limited visitor facilities'
       ],
       youtubeVideoId: ''
   ),
 
   TouristSite(
-      id: '146',
-      name: 'Bibiani Gold Mines Area',
+      id: '153',
+      name: 'Bibiani Gold Mine Area',
       region: 'Western North',
       category: 'industrial',
-      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/3/3c/Gold_mining_Ghana.jpg',
+      imageUrl: 'https://i.pinimg.com/736x/4e/64/79/4e6479e9a2d7c5a4c8b6f1a3d5c7e2b1.jpg',
       galleryImages: [
-        'https://upload.wikimedia.org/wikipedia/commons/3/3c/Gold_mining_Ghana.jpg',
+        'https://i.pinimg.com/736x/7a/82/91/7a8291e2c4d6f3a1b7c9d5e2f3c7a1b2.jpg',
+        'https://i.pinimg.com/736x/5c/34/81/5c3481c7a9e2d4f3a1c7b2e4f8d3c5a6.jpg',
+        'https://i.pinimg.com/736x/9e/74/6a/9e746a2b7c1e3d5a6f2b4c7e8a1d3c9b.jpg',
+        'https://i.pinimg.com/736x/2b/19/54/2b1954d7a1e4f3b2c9a6e5d3f1b7c2e4.jpg',
+        'https://i.pinimg.com/736x/3f/88/41/3f8841c5e2a6b7d4f1c3e9a7b2d4c6e1.jpg'
       ],
       description:
-      'Bibiani is a major gold mining town with industrial mining operations and history.',
-      latitude: 6.4667,
-      longitude: -2.3333,
+      'Bibiani is known for its historic gold mining activities and remains an important mining town in Ghana.',
+      latitude: 6.4630,
+      longitude: -2.3190,
       address: 'Bibiani, Western North Region, Ghana',
       openingTime: '08:00 AM',
       closingTime: '05:00 PM',
       entryFee: 'Restricted access',
-      rating: 4.2,
+      rating: 4.3,
       distanceKm: 570,
       bestTimeToVisit: 'All year round',
       pros: [
-        'Mining industry insight',
-        'Economic importance',
-        'Educational tours'
+        'Historic mining town',
+        'Educational insight into mining',
+        'Important economic site'
       ],
       cons: [
-        'Restricted mining areas',
-        'Industrial pollution concerns'
+        'Restricted areas',
+        'Industrial environment'
       ],
       youtubeVideoId: ''
   ),
 
   TouristSite(
-      id: '147',
-      name: 'Sefwi Bekwai Town Center',
+      id: '154',
+      name: 'Sefwi Bekwai Traditional Area',
       region: 'Western North',
       category: 'cultural',
-      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/2/27/Ghana_town_market.jpg',
+      imageUrl: 'https://i.pinimg.com/736x/4d/92/6f/4d926f3b1a8e3c7d5b2f4a9e6c3d7a1f.jpg',
       galleryImages: [
-        'https://upload.wikimedia.org/wikipedia/commons/2/27/Ghana_town_market.jpg',
+        'https://i.pinimg.com/736x/3c/71/5e/3c715e9a6b4d7f1a3e9c2d5b7a1f4e3d.jpg',
+        'https://i.pinimg.com/736x/9b/65/44/9b6544a7c1d2e3f6a9b7c5e3d1a8f4b6.jpg',
+        'https://i.pinimg.com/736x/2c/87/1f/2c871fa9e6d3c4b7a1f5e9d2b3c7a4e6.jpg',
+        'https://i.pinimg.com/736x/8e/33/29/8e3329d5c6a1f4b3e9d2c7a6f1b5c3e7.jpg',
+        'https://i.pinimg.com/736x/5a/40/6d/5a406db3c9a2e7f1d4b6c3e9a2f5d1b7.jpg'
       ],
       description:
-      'A lively town center known for trading, culture, and community life in Western North.',
+      'Sefwi Bekwai is a historic traditional town known for its rich culture, festivals, and local traditions.',
       latitude: 6.2833,
       longitude: -2.7167,
       address: 'Sefwi Bekwai, Western North Region, Ghana',
@@ -4797,111 +4556,15 @@ final List<TouristSite> ghanaTopSites = [
       entryFee: 'Free',
       rating: 4.2,
       distanceKm: 600,
-      bestTimeToVisit: 'Market days',
+      bestTimeToVisit: 'Festival seasons',
       pros: [
-        'Cultural experience',
-        'Local markets',
+        'Rich cultural traditions',
+        'Colorful festivals',
         'Friendly community'
       ],
       cons: [
-        'Busy market environment',
-        'Limited tourist attractions'
-      ],
-      youtubeVideoId: ''
-  ),
-
-  TouristSite(
-      id: '148',
-      name: 'Akontombra Forest Area',
-      region: 'Western North',
-      category: 'natural',
-      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/4/4a/Forest_trail_Ghana.jpg',
-      galleryImages: [
-        'https://upload.wikimedia.org/wikipedia/commons/4/4a/Forest_trail_Ghana.jpg',
-      ],
-      description:
-      'A forested area with natural vegetation and small-scale farming communities.',
-      latitude: 6.0833,
-      longitude: -2.7167,
-      address: 'Akontombra, Western North Region, Ghana',
-      openingTime: '06:00 AM',
-      closingTime: '06:00 PM',
-      entryFee: 'Free',
-      rating: 4.1,
-      distanceKm: 610,
-      bestTimeToVisit: 'November – March',
-      pros: [
-        'Natural scenery',
-        'Agricultural landscape',
-        'Peaceful environment'
-      ],
-      cons: [
-        'Poor infrastructure',
-        'Limited tourism facilities'
-      ],
-      youtubeVideoId: ''
-  ),
-
-  TouristSite(
-      id: '149',
-      name: 'Asankragwa Town',
-      region: 'Western North',
-      category: 'cultural',
-      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/2/27/Ghana_market.jpg',
-      galleryImages: [
-        'https://upload.wikimedia.org/wikipedia/commons/2/27/Ghana_market.jpg',
-      ],
-      description:
-      'Asankragwa is a growing town known for trade, farming, and local culture.',
-      latitude: 5.9500,
-      longitude: -2.6833,
-      address: 'Asankragwa, Western North Region, Ghana',
-      openingTime: '06:00 AM',
-      closingTime: '06:00 PM',
-      entryFee: 'Free',
-      rating: 4.2,
-      distanceKm: 620,
-      bestTimeToVisit: 'All year round',
-      pros: [
-        'Local market experience',
-        'Agricultural trade',
-        'Community life'
-      ],
-      cons: [
-        'Busy trading center',
-        'Limited tourist infrastructure'
-      ],
-      youtubeVideoId: ''
-  ),
-
-  TouristSite(
-      id: '150',
-      name: 'Sefwi Akura Falls',
-      region: 'Western North',
-      category: 'natural',
-      imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/3/3f/Ghana_waterfall_forest.jpg',
-      galleryImages: [
-        'https://upload.wikimedia.org/wikipedia/commons/3/3f/Ghana_waterfall_forest.jpg',
-      ],
-      description:
-      'A hidden waterfall surrounded by forest vegetation in Western North Region.',
-      latitude: 6.2000,
-      longitude: -2.5500,
-      address: 'Sefwi Akura, Western North Region, Ghana',
-      openingTime: '08:00 AM',
-      closingTime: '05:00 PM',
-      entryFee: 'GHS 10',
-      rating: 4.3,
-      distanceKm: 605,
-      bestTimeToVisit: 'May – October',
-      pros: [
-        'Hidden natural waterfall',
-        'Peaceful environment',
-        'Great photography spot'
-      ],
-      cons: [
-        'Difficult access',
-        'No facilities'
+        'Limited tourist facilities',
+        'Few guided tours'
       ],
       youtubeVideoId: ''
   ),
