@@ -96,7 +96,7 @@ class TouristSite {
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
-// Sample data — replace with Supabase fetch later
+// Local fallback data used when the Supabase request is unavailable or empty.
 // ─────────────────────────────────────────────────────────────────────────────
 final List<TouristSite> ghanaTopSites = [
 
@@ -1723,11 +1723,11 @@ final List<TouristSite> ghanaTopSites = [
       name: 'Tongo Hills',
       region: 'Upper East',
       category: 'nature',
-      imageUrl: 'https://commons.wikimedia.org/wiki/File:Packed_rocks_at_Tongo_Hills.jpg',
+      imageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/Packed_rocks_at_Tongo_Hills.jpg',
       galleryImages: [
-        'https://commons.wikimedia.org/wiki/File:Tongo_hills_view_55.jpg',
-        'https://commons.wikimedia.org/wiki/File:Packed_rocks_at_Tongo_Hills.jpg',
-        'https://commons.wikimedia.org/wiki/File:Tongo_hills_view_55.jpg'
+        'https://commons.wikimedia.org/wiki/Special:FilePath/Tongo_hills_view_55.jpg',
+        'https://commons.wikimedia.org/wiki/Special:FilePath/Packed_rocks_at_Tongo_Hills.jpg',
+        'https://commons.wikimedia.org/wiki/Special:FilePath/Tongo_hills_view_55.jpg'
       ],
       description:
       'Tongo Hills are ancient rock formations with caves, shrines, and scenic landscapes.',
@@ -1902,11 +1902,11 @@ final List<TouristSite> ghanaTopSites = [
       name: 'Black Volta River (Upper West Section)',
       region: 'Upper West',
       category: 'natural',
-      imageUrl: 'https://commons.wikimedia.org/wiki/File:Black_Volta_River.jpg',
+      imageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/Black_Volta_River.jpg',
       galleryImages: [
-        'https://commons.wikimedia.org/wiki/File:The_beautiful_black_Volta_(Ghana).jpg',
-        'https://commons.wikimedia.org/wiki/File:Black_Volta_River.jpg',
-        'https://commons.wikimedia.org/wiki/File:Ada,_Volta_River.jpg'
+        'https://commons.wikimedia.org/wiki/Special:FilePath/The_beautiful_black_Volta_(Ghana).jpg',
+        'https://commons.wikimedia.org/wiki/Special:FilePath/Black_Volta_River.jpg',
+        'https://commons.wikimedia.org/wiki/Special:FilePath/Ada,_Volta_River.jpg'
       ],
       description:
       'The Black Volta forms part of Ghana\'s border with Burkina Faso and Côte d\'Ivoire, supporting fishing and farming communities.',
@@ -1937,11 +1937,11 @@ final List<TouristSite> ghanaTopSites = [
       name: 'Tafi Atome Monkey Sanctuary',
       region: 'Volta',
       category: 'natural',
-      imageUrl: 'https://commons.wikimedia.org/wiki/File:Tafi_Atome_Monkey_Sanctuary_6.jpg',
+      imageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/Tafi_Atome_Monkey_Sanctuary_6.jpg',
       galleryImages: [
-        'https://commons.wikimedia.org/wiki/File:Tafi_Atome_Monkey_Sanctuary_23.jpg',
-        'https://commons.wikimedia.org/wiki/File:Tafi_Atome_Monkey_Sanctuary_6.jpg',
-        'https://commons.wikimedia.org/wiki/File:Tafi_Atome_Monkey_Sanctuary_23.jpg'
+        'https://commons.wikimedia.org/wiki/Special:FilePath/Tafi_Atome_Monkey_Sanctuary_23.jpg',
+        'https://commons.wikimedia.org/wiki/Special:FilePath/Tafi_Atome_Monkey_Sanctuary_6.jpg',
+        'https://commons.wikimedia.org/wiki/Special:FilePath/Tafi_Atome_Monkey_Sanctuary_23.jpg'
       ],
       description:
       'A sacred forest where Mona monkeys have lived freely and protected by the local community for over 200 years.',
@@ -2144,7 +2144,7 @@ final List<TouristSite> ghanaTopSites = [
       imageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/The%20white%20Volta%20in%20the%20North%20east%20region%20of%20Northern%20Ghana.jpg',
       galleryImages: [
         'https://commons.wikimedia.org/wiki/Special:FilePath/The%20white%20Volta%20in%20the%20North%20east%20region%20of%20Northern%20Ghana.jpg',
-        'https://commons.wikimedia.org/wiki/File:Nedba_b%C3%A9_k%C3%B4glga_pugin_n_p%C9%A9%CA%8B%CA%8Bgre_White_Volta_Mogre.jpg'
+        'https://commons.wikimedia.org/wiki/Special:FilePath/Nedba_b%C3%A9_k%C3%B4glga_pugin_n_p%C9%A9%CA%8B%CA%8Bgre_White_Volta_Mogre.jpg'
       ],
       description:
       'The White Volta flows through the Upper East Region near Pwalugu, supporting farming and fishing communities along its banks.',
@@ -2328,11 +2328,11 @@ final List<TouristSite> ghanaTopSites = [
       name: 'Black Volta River (Upper West Section)',
       region: 'Upper West',
       category: 'natural',
-      imageUrl: 'https://commons.wikimedia.org/wiki/File:The_beautiful_black_Volta_(Ghana).jpg',
+      imageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/The_beautiful_black_Volta_(Ghana).jpg',
       galleryImages: [
-        'https://commons.wikimedia.org/wiki/File:The_beautiful_black_Volta_(Ghana).jpg',
-        'https://commons.wikimedia.org/wiki/File:The_Wechiau_Hippopotamus_Sanctuary.jpg'
-        'https://commons.wikimedia.org/wiki/File:Black_Volta_River.jpg'
+        'https://commons.wikimedia.org/wiki/Special:FilePath/The_beautiful_black_Volta_(Ghana).jpg',
+        'https://commons.wikimedia.org/wiki/Special:FilePath/The_Wechiau_Hippopotamus_Sanctuary.jpg',
+        'https://commons.wikimedia.org/wiki/Special:FilePath/Black_Volta_River.jpg',
       ],
       description:
       'The Black Volta River in Ghana\'s Upper West Region forms a 40-kilometre stretch of the Wechiau Community Hippo Sanctuary, a community-based eco-tourism project established by local chiefs in 1999. The river is home to one of only two remaining hippopotamus populations in Ghana, alongside over 200 bird species, bats, chameleons, and monitor lizards. Visitors can take guided river safaris by canoe or motorboat to observe hippos in their natural habitat, trek riverside trails, stay overnight in the Hippo Hide Tree House, and experience Lobi culture in nearby communities. The river also serves as the natural border between Ghana and Burkina Faso.',
@@ -2650,10 +2650,10 @@ final List<TouristSite> ghanaTopSites = [
       name: 'Ada Foah',
       region: 'Greater Accra',
       category: 'beach',
-      imageUrl: 'https://commons.wikimedia.org/wiki/File:Ada_Foah_Beach_1.jpg',
+      imageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/Ada_Foah_Beach_1.jpg',
       galleryImages: [
-        'https://commons.wikimedia.org/wiki/File:Ada_Foah_Beach_1.jpg',
-        'https://commons.wikimedia.org/wiki/File:Ada_Foah_Beach_2.jpg',
+        'https://commons.wikimedia.org/wiki/Special:FilePath/Ada_Foah_Beach_1.jpg',
+        'https://commons.wikimedia.org/wiki/Special:FilePath/Ada_Foah_Beach_2.jpg',
       ],
       description:
       'Ada Foah is the tourism capital of the Ada East District, nestled between the Volta River and the Atlantic Ocean at Ghana\'s largest estuary. Once a major Danish trading post with the remains of Fort Kongenstein, the town is now famous for water sports, boat cruises around the river islands, sea turtle watching, and long sandy beaches. The Ghana Sailing Club operates on the river, and the annual Asafotufiami Festival in August draws thousands. Ada Foah is a popular weekend getaway from Accra, offering a unique blend of river and ocean experiences.',

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:ghana_tourism_app/shared/widgets/remote_image.dart';
 
 class ImageViewerScreen extends StatefulWidget {
   final List<String> images;
@@ -126,10 +127,10 @@ class _ImageViewerScreenState extends State<ImageViewerScreen> {
   }
 
   Widget _buildImage(String url) {
-    return Image.network(
-      url,
+    return RemoteImage(
+      url: url,
       fit: BoxFit.contain,
-      errorBuilder: (_, __, ___) => const Center(
+      errorWidget: const Center(
         child: Icon(Icons.broken_image_outlined,
             color: Colors.white38, size: 64),
       ),

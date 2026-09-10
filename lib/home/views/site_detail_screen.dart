@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:ghana_tourism_app/home/views/image_viewer_screen.dart';
 import 'package:ghana_tourism_app/home/models/tourst_site.dart';
+import 'package:ghana_tourism_app/shared/widgets/remote_image.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 
@@ -144,10 +145,11 @@ class _SiteDetailScreenState extends State<SiteDetailScreen> {
           children: [
             Hero(
               tag: 'site_hero_${site.id}',
-              child: Image.network(
-                site.imageUrl,
+              child: RemoteImage(
+                url: site.imageUrl,
                 fit: BoxFit.cover,
-                errorBuilder: (_, __, ___) => Container(
+                cacheWidth: 1080,
+                errorWidget: Container(
                   color: Colors.grey.shade200,
                   child: const Icon(Icons.image_not_supported, size: 64, color: Colors.grey),
                 ),
@@ -317,25 +319,20 @@ class _SiteDetailScreenState extends State<SiteDetailScreen> {
               child: Stack(
                 fit: StackFit.expand,
                 children: [
-                  // Static map image via OpenStreetMap tile
-                  Image.network(
-                    'https://maps.geoapify.com/v1/staticmap?style=osm-bright&width=650&height=300&center=lonlat:${site.longitude},${site.latitude}&zoom=12&marker=lonlat:${site.longitude},${site.latitude};color:%23CE1126;size:medium&apiKey=YOUR_API_KEY',
-                    fit: BoxFit.cover,
-                    errorBuilder: (_, __, ___) => Container(
-                      color: const Color(0xFFDEEAF5),
-                      child: Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Icon(Icons.map_rounded, size: 56, color: Colors.blue.shade300),
-                          const SizedBox(height: 8),
-                          Text(
-                            '${site.latitude.toStringAsFixed(4)}°N, ${site.longitude.abs().toStringAsFixed(4)}°W',
-                            style: TextStyle(color: Colors.blue.shade600, fontSize: 13, fontWeight: FontWeight.w600),
-                          ),
-                          const SizedBox(height: 4),
-                          Text(site.region, style: TextStyle(color: Colors.blue.shade400, fontSize: 12)),
-                        ],
-                      ),
+                  Container(
+                    color: const Color(0xFFDEEAF5),
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Icon(Icons.map_rounded, size: 56, color: Colors.blue.shade300),
+                        const SizedBox(height: 8),
+                        Text(
+                          '${site.latitude.toStringAsFixed(4)}°N, ${site.longitude.abs().toStringAsFixed(4)}°W',
+                          style: TextStyle(color: Colors.blue.shade600, fontSize: 13, fontWeight: FontWeight.w600),
+                        ),
+                        const SizedBox(height: 4),
+                        Text(site.region, style: TextStyle(color: Colors.blue.shade400, fontSize: 12)),
+                      ],
                     ),
                   ),
                   // Bottom gradient
@@ -440,10 +437,11 @@ class _SiteDetailScreenState extends State<SiteDetailScreen> {
                     borderRadius: BorderRadius.circular(16),
                     child: Stack(
                       children: [
-                        Image.network(
-                          site.galleryImages[index],
+                        RemoteImage(
+                          url: site.galleryImages[index],
                           width: 140, height: 140, fit: BoxFit.cover,
-                          errorBuilder: (_, __, ___) => Container(
+                          cacheWidth: 420,
+                          errorWidget: Container(
                             width: 140, color: Colors.grey.shade200,
                             child: const Icon(Icons.image_not_supported, color: Colors.grey),
                           ),
@@ -490,10 +488,11 @@ class _SiteDetailScreenState extends State<SiteDetailScreen> {
               child: Stack(
                 fit: StackFit.expand,
                 children: [
-                  Image.network(
-                    'https://img.youtube.com/vi/$videoId/hqdefault.jpg',
+                  RemoteImage(
+                    url: 'https://img.youtube.com/vi/$videoId/hqdefault.jpg',
                     fit: BoxFit.cover,
-                    errorBuilder: (_, __, ___) => Container(
+                    cacheWidth: 1080,
+                    errorWidget: Container(
                       color: Colors.grey.shade800,
                       child: const Icon(Icons.video_library_rounded, color: Colors.white38, size: 64),
                     ),

@@ -620,10 +620,14 @@
 import 'package:flutter/material.dart';
 import 'package:ghana_tourism_app/ai/scan_screen.dart';
 import 'package:ghana_tourism_app/home/models/tourst_site.dart';
+import 'package:ghana_tourism_app/home/repositories/tourist_site_repository.dart';
+import 'package:ghana_tourism_app/shared/widgets/remote_image.dart';
 import 'site_detail_screen.dart';
 
 class ExploreScreen extends StatefulWidget {
-  const ExploreScreen({super.key});
+  const ExploreScreen({super.key, this.touristSiteRepository});
+
+  final TouristSiteRepository? touristSiteRepository;
 
   @override
   State<ExploreScreen> createState() => _ExploreScreenState();
@@ -640,6 +644,8 @@ class _ExploreScreenState extends State<ExploreScreen> {
   // ── State ─────────────────────────────────────────────────────────────────
   final TextEditingController _searchController = TextEditingController();
   final FocusNode _searchFocus = FocusNode();
+  late final TouristSiteRepository _touristSiteRepository;
+  List<TouristSite> _sites = ghanaTopSites;
 
   String _selectedCategory = 'all'; // 'all' | 'nature' | 'artificial'
   String _selectedRegion = '';
@@ -654,7 +660,7 @@ class _ExploreScreenState extends State<ExploreScreen> {
   }
 
   List<TouristSite> get _filteredSites {
-    return ghanaTopSites.where((site) {
+    return _sites.where((site) {
       final matchesCategory =
           _selectedCategory == 'all' || site.category == _selectedCategory;
       final matchesRegion =
@@ -670,9 +676,18 @@ class _ExploreScreenState extends State<ExploreScreen> {
   @override
   void initState() {
     super.initState();
+    _touristSiteRepository =
+        widget.touristSiteRepository ?? TouristSiteRepository();
     _searchController.addListener(() {
       setState(() => _searchQuery = _searchController.text);
     });
+    _loadTouristSites();
+  }
+
+  Future<void> _loadTouristSites() async {
+    final sites = await _touristSiteRepository.getTouristSites();
+    if (!mounted) return;
+    setState(() => _sites = sites);
   }
 
   @override
@@ -720,7 +735,7 @@ class _ExploreScreenState extends State<ExploreScreen> {
         floatingActionButton: FloatingActionButton.extended(
           onPressed: () => Navigator.push(
             context,
-            MaterialPageRoute(builder: (_) => const ScanScreen()),
+            MaterialPageRoute(builder: (_) => ScanScreen(sites: _sites)),
           ),
           backgroundColor: _red,
           icon: const Icon(Icons.document_scanner_rounded,
@@ -1159,10 +1174,22 @@ class _ExploreScreenState extends State<ExploreScreen> {
                 child: Stack(
                   fit: StackFit.expand,
                   children: [
-                    Image.network(
-                      site.imageUrl,
+                    RemoteImage(
+                      url: site.imageUrl,
                       fit: BoxFit.cover,
-                      errorBuilder: (_, __, ___) => Container(
+                      cacheWidth: 600,
+                      placeholder: Container(
+                        color: isNature
+                            ? const Color(0xFFE8F5E9)
+                            : const Color(0xFFFCE4E4),
+                        child: const Center(
+                          child: SizedBox.square(
+                            dimension: 22,
+                            child: CircularProgressIndicator(strokeWidth: 2),
+                          ),
+                        ),
+                      ),
+                      errorWidget: Container(
                         color: isNature
                             ? const Color(0xFFE8F5E9)
                             : const Color(0xFFFCE4E4),

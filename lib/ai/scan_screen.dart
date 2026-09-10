@@ -3,10 +3,13 @@ import 'package:flutter/material.dart';
 import 'package:ghana_tourism_app/ai/vision_service.dart';
 import 'package:ghana_tourism_app/home/models/tourst_site.dart';
 import 'package:ghana_tourism_app/home/views/site_detail_screen.dart';
+import 'package:ghana_tourism_app/shared/widgets/remote_image.dart';
 import 'package:image_picker/image_picker.dart';
 
 class ScanScreen extends StatefulWidget {
-  const ScanScreen({super.key});
+  const ScanScreen({super.key, required this.sites});
+
+  final List<TouristSite> sites;
 
   @override
   State<ScanScreen> createState() => _ScanScreenState();
@@ -85,11 +88,12 @@ class _ScanScreenState extends State<ScanScreen>
 
       final result = await _visionService.identifySite(_selectedImage!);
 
-      // Try to find a matching site in our local list
+      // Match against the Supabase-backed list passed by ExploreScreen. The
+      // repository supplies the local fallback list when the remote call fails.
       TouristSite? matched;
       if (result.matchedSiteId != null) {
         try {
-          matched = ghanaTopSites.firstWhere(
+          matched = widget.sites.firstWhere(
             (s) => s.id == result.matchedSiteId,
           );
         } catch (_) {
@@ -532,12 +536,13 @@ class _ScanScreenState extends State<ScanScreen>
                     // Thumbnail
                     ClipRRect(
                       borderRadius: BorderRadius.circular(14),
-                      child: Image.network(
-                        _matchedSite!.imageUrl,
+                      child: RemoteImage(
+                        url: _matchedSite!.imageUrl,
                         width: 70,
                         height: 70,
                         fit: BoxFit.cover,
-                        errorBuilder: (_, __, ___) => Container(
+                        cacheWidth: 210,
+                        errorWidget: Container(
                           width: 70,
                           height: 70,
                           color: Colors.white12,
