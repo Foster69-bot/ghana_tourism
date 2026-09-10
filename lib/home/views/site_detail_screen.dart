@@ -25,19 +25,41 @@ class _SiteDetailScreenState extends State<SiteDetailScreen> {
 
   TouristSite get site => widget.site;
 
+  // // ── Launchers ─────────────────────────────────────────────────────────────
+  // Future<void> _openGoogleMaps() async {
+  //   final uri = Uri.parse(
+  //     'https://www.google.com/maps/dir/?api=1'
+  //         '&destination=${site.latitude},${site.longitude}'
+  //         '&travelmode=driving',
+  //   );
+  //   if (await canLaunchUrl(uri)) {
+  //     await launchUrl(uri, mode: LaunchMode.externalApplication);
+  //   } else if (mounted) {
+  //     ScaffoldMessenger.of(context).showSnackBar(
+  //       const SnackBar(content: Text('Could not open Google Maps')),
+  //     );
+  //   }
+  // }
+
   // ── Launchers ─────────────────────────────────────────────────────────────
   Future<void> _openGoogleMaps() async {
-    final uri = Uri.parse(
-      'https://www.google.com/maps/dir/?api=1'
-          '&destination=${site.latitude},${site.longitude}'
-          '&travelmode=driving',
-    );
-    if (await canLaunchUrl(uri)) {
-      await launchUrl(uri, mode: LaunchMode.externalApplication);
-    } else if (mounted) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('Could not open Google Maps')),
+    // 1. Format a native-friendly geo query scheme for mobile devices
+    final String googleMapsUrl = "https://www.google.com/maps/dir/?api=1&destination=${site.latitude},${site.longitude}&travelmode=driving";
+    final uri = Uri.parse(googleMapsUrl);
+
+    try {
+      // 2. Bypass canLaunchUrl entirely and force the phone to pass it directly to external handlers
+      await launchUrl(
+        uri,
+        mode: LaunchMode.externalApplication,
       );
+    } catch (e) {
+      // 3. Fallback: If it completely fails, catch the error gracefully
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: Text('Could not open map navigation: $e')),
+        );
+      }
     }
   }
 
